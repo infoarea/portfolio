@@ -12,6 +12,31 @@ import wordpress from "../../assets/icons/wordpress.svg";
 import educationIcon from "../../assets/icons/icon-education.svg";
 import experience from "../../assets/icons/icon-experience.svg";
 import partnerLogo from "../../assets/img/logo-partner.svg";
+import img1 from "../../assets/img/1.jpg";
+import img2 from "../../assets/img/2.jpg";
+import img3 from "../../assets/img/3.jpg";
+import img4 from "../../assets/img/4.jpg";
+import img5 from "../../assets/img/5.jpg";
+import img6 from "../../assets/img/6.jpg";
+import img7 from "../../assets/img/7.jpg";
+import img8 from "../../assets/img/8.jpg";
+import img9 from "../../assets/img/9.jpg";
+import img10 from "../../assets/img/10.jpg";
+import img11 from "../../assets/img/11.png";
+import img12 from "../../assets/img/12.png";
+import img13 from "../../assets/img/13.png";
+import img14 from "../../assets/img/14.png";
+import img15 from "../../assets/img/15.png";
+import img16 from "../../assets/img/16.jpg";
+import img17 from "../../assets/img/17.jpg";
+import img18 from "../../assets/img/18.jpg";
+import img19 from "../../assets/img/19.jpg";
+import img20 from "../../assets/img/20.webp";
+import img21 from "../../assets/img/21.png";
+import img22 from "../../assets/img/22.jpg";
+import img23 from "../../assets/img/23.png";
+import img24 from "../../assets/img/24.png";
+import img25 from "../../assets/img/25.png";
 
 const Home = () => {
   return (
@@ -580,19 +605,19 @@ const Home = () => {
                       All
                     </a>
                   </li>
+                  <li className="filter__item" data-filter=".category-life">
+                    <a className="filter__link" href="#filter">
+                      E-Commerce/Online Shop
+                    </a>
+                  </li>
                   <li className="filter__item" data-filter=".category-concept">
                     <a className="filter__link" href="#filter">
-                      Concept
+                      Business
                     </a>
                   </li>
                   <li className="filter__item" data-filter=".category-design">
                     <a className="filter__link" href="#filter">
                       Design
-                    </a>
-                  </li>
-                  <li className="filter__item" data-filter=".category-life">
-                    <a className="filter__link" href="#filter">
-                      Life
                     </a>
                   </li>
                 </ul>
@@ -601,11 +626,315 @@ const Home = () => {
 
               <div className="gallery-grid js-grid js-filter-container">
                 <div className="gutter-sizer"></div>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img9}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img2}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img3}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img12}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img13}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img14}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img15}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img16}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img16}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img17}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img18}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img19}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img20}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img21}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img22}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img23}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img24}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="gallery-grid__item category-life">
+                  <div className="gallery-grid__image-wrap">
+                    <img
+                      className="gallery-grid__image cover lazyload"
+                      src={img25}
+                      data-zoom
+                      alt=""
+                    />
+                  </div>
+                  <figcaption className="gallery-grid__caption">
+                    <h4 className="title title--h4 gallery-grid__title">
+                      Woocommerce Website
+                    </h4>
+                    <span className="gallery-grid__category">Online Shop</span>
+                  </figcaption>
+                </figure>
+
                 <figure className="gallery-grid__item category-concept">
                   <div className="gallery-grid__image-wrap">
                     <img
                       className="gallery-grid__image cover lazyload"
-                      src="assets/img/image_01.jpg"
+                      src={img1}
                       data-zoom
                       alt=""
                     />
@@ -622,7 +951,7 @@ const Home = () => {
                   <div className="gallery-grid__image-wrap">
                     <img
                       className="gallery-grid__image cover lazyload"
-                      src="assets/img/image_02.jpg"
+                      src={img10}
                       data-zoom
                       alt=""
                     />
@@ -639,7 +968,7 @@ const Home = () => {
                   <div className="gallery-grid__image-wrap">
                     <img
                       className="gallery-grid__image cover lazyload"
-                      src="assets/img/image_03.jpg"
+                      src={img11}
                       data-zoom
                       alt=""
                     />
@@ -656,7 +985,7 @@ const Home = () => {
                   <div className="gallery-grid__image-wrap">
                     <img
                       className="gallery-grid__image cover lazyload"
-                      src="assets/img/image_04.jpg"
+                      src={img4}
                       data-zoom
                       alt=""
                     />
@@ -673,7 +1002,7 @@ const Home = () => {
                   <div className="gallery-grid__image-wrap">
                     <img
                       className="gallery-grid__image cover lazyload"
-                      src="assets/img/image_05.jpg"
+                      src={img5}
                       data-zoom
                       alt=""
                     />
@@ -690,7 +1019,7 @@ const Home = () => {
                   <div className="gallery-grid__image-wrap">
                     <img
                       className="gallery-grid__image cover lazyload"
-                      src="assets/img/image_06.jpg"
+                      src={img6}
                       data-zoom
                       alt=""
                     />
@@ -707,7 +1036,7 @@ const Home = () => {
                   <div className="gallery-grid__image-wrap">
                     <img
                       className="gallery-grid__image cover lazyload"
-                      src="assets/img/image_07.jpg"
+                      src={img7}
                       data-zoom
                       alt=""
                     />
@@ -724,7 +1053,7 @@ const Home = () => {
                   <div className="gallery-grid__image-wrap">
                     <img
                       className="gallery-grid__image cover lazyload"
-                      src="assets/img/image_08.jpg"
+                      src={img8}
                       data-zoom
                       alt=""
                     />
@@ -734,23 +1063,6 @@ const Home = () => {
                       Abstract #4
                     </h4>
                     <span className="gallery-grid__category">Design</span>
-                  </figcaption>
-                </figure>
-
-                <figure className="gallery-grid__item category-life">
-                  <div className="gallery-grid__image-wrap">
-                    <img
-                      className="gallery-grid__image cover lazyload"
-                      src="assets/img/image_09.jpg"
-                      data-zoom
-                      alt=""
-                    />
-                  </div>
-                  <figcaption className="gallery-grid__caption">
-                    <h4 className="title title--h4 gallery-grid__title">
-                      Hedgehog
-                    </h4>
-                    <span className="gallery-grid__category">Life</span>
                   </figcaption>
                 </figure>
               </div>
